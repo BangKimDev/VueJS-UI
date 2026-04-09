@@ -1,0 +1,938 @@
+{
+  "bookings": [
+    {
+      "id": "BK827364123",
+      "user_id": 1,
+      "show_id": 1,
+      "status": "CONFIRMED",
+      "total_amount": 140000,
+      "booking_code": "CINE8A1",
+      "created_at": "2026-03-24T15:00:00Z"
+    },
+    {
+      "id": "BK912837465",
+      "user_id": 1,
+      "show_id": 4,
+      "status": "CONFIRMED",
+      "total_amount": 85000,
+      "booking_code": "CINE2B4",
+      "created_at": "2026-03-24T18:30:00Z"
+    }
+  ],
+  "cinemas": [
+    {
+      "id": 1,
+      "name": "CineStar Landmark 81",
+      "city": "Ho Chi Minh City",
+      "address": "720A Dien Bien Phu, Ward 22, Binh Thanh, HCMC",
+      "phone_number": "028 3822 3111",
+      "logo_url": "https://picsum.photos/seed/logo1/100/100",
+      "number_of_screens": 5,
+      "distance": "1.2 km",
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 2,
+      "name": "CineStar Bitexco",
+      "city": "Ho Chi Minh City",
+      "address": "2 Hai Trieu, Ben Nghe, District 1, HCMC",
+      "phone_number": "028 3915 2246",
+      "logo_url": "https://picsum.photos/seed/logo2/100/100",
+      "number_of_screens": 3,
+      "distance": "3.5 km",
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 3,
+      "name": "CineStar Crescent Mall",
+      "city": "Ho Chi Minh City",
+      "address": "101 Ton Dat Tien, Tan Phu, District 7, HCMC",
+      "phone_number": "028 5413 3333",
+      "logo_url": "https://picsum.photos/seed/logo3/100/100",
+      "number_of_screens": 6,
+      "distance": "7.2 km",
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 4,
+      "name": "CineStar Quoc Thanh",
+      "city": "Ho Chi Minh City",
+      "address": "271 Nguyen Trai, District 1, HCMC",
+      "phone_number": "028 3920 6688",
+      "logo_url": "https://picsum.photos/seed/logo4/100/100",
+      "number_of_screens": 4,
+      "distance": "2.4 km",
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  ],
+  "combos": [
+    {
+      "id": "cb1",
+      "name": "Solo Combo",
+      "description": "1 Large Popcorn + 1 Large Soda",
+      "price": 85000,
+      "image": "https://picsum.photos/seed/popcorn/200/200"
+    },
+    {
+      "id": "cb2",
+      "name": "Couple Combo",
+      "description": "1 Large Popcorn + 2 Large Sodas",
+      "price": 125000,
+      "image": "https://picsum.photos/seed/popcorn2/200/200"
+    },
+    {
+      "id": "cb3",
+      "name": "Family Combo",
+      "description": "2 Large Popcorns + 4 Large Sodas",
+      "price": 220000,
+      "image": "https://picsum.photos/seed/popcorn3/200/200"
+    },
+    {
+      "id": "cb4",
+      "name": "Kid Combo",
+      "description": "1 Small Popcorn + 1 Fruit Juice + 1 Toy",
+      "price": 95000,
+      "image": "https://picsum.photos/seed/kid/200/200"
+    },
+    {
+      "id": "cb5",
+      "name": "Night Owl Combo",
+      "description": "1 Large Popcorn + 2 Large Sodas + 1 Snack",
+      "price": 150000,
+      "image": "https://picsum.photos/seed/night/200/200"
+    }
+  ],
+  "movies": [
+    {
+      "id": "1",
+      "title": "Dune: Part Two",
+      "duration_min": 166,
+      "duration": 166,
+      "genre": [
+        "Action",
+        "Adventure",
+        "Sci-Fi"
+      ],
+      "language": "English",
+      "rating": "T13",
+      "classification": "T13",
+      "description": "Paul Atreides unites with Chani and the Fremen while on a warpath of revenge against the conspirators who destroyed his family.",
+      "release_date": "2024-03-01",
+      "poster_url": "https://picsum.photos/seed/dune/400/600",
+      "poster": "https://picsum.photos/seed/dune/400/600",
+      "backdrop_url": "https://picsum.photos/seed/dune-bg/1200/600",
+      "backdrop": "https://picsum.photos/seed/dune-bg/1200/600",
+      "trailer_url": "https://www.youtube.com/embed/Way9Dexny3w",
+      "trailerUrl": "https://www.youtube.com/embed/Way9Dexny3w",
+      "director": "Denis Villeneuve",
+      "cast": [
+        "Timothée Chalamet",
+        "Zendaya",
+        "Rebecca Ferguson"
+      ],
+      "status": "now-showing",
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "2",
+      "title": "Kung Fu Panda 4",
+      "duration_min": 94,
+      "duration": 94,
+      "genre": [
+        "Animation",
+        "Action",
+        "Adventure"
+      ],
+      "language": "English",
+      "rating": "P",
+      "classification": "P",
+      "description": "After Po is tapped to become the Spiritual Leader of the Valley of Peace, he needs to find and train a new Dragon Warrior.",
+      "release_date": "2024-03-08",
+      "poster_url": "https://picsum.photos/seed/panda/400/600",
+      "poster": "https://picsum.photos/seed/panda/400/600",
+      "backdrop_url": "https://picsum.photos/seed/panda-bg/1200/600",
+      "backdrop": "https://picsum.photos/seed/panda-bg/1200/600",
+      "trailer_url": "https://www.youtube.com/embed/_inKs4eeHiI",
+      "trailerUrl": "https://www.youtube.com/embed/_inKs4eeHiI",
+      "director": "Mike Mitchell",
+      "cast": [
+        "Jack Black",
+        "Awkwafina",
+        "Viola Davis"
+      ],
+      "status": "now-showing",
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "3",
+      "title": "Godzilla x Kong",
+      "duration_min": 115,
+      "duration": 115,
+      "genre": [
+        "Action",
+        "Adventure",
+        "Sci-Fi"
+      ],
+      "language": "English",
+      "rating": "T13",
+      "classification": "T13",
+      "description": "Two ancient titans, Godzilla and Kong, clash in an epic battle as humans unravel their intertwined origins.",
+      "release_date": "2024-03-29",
+      "poster_url": "https://picsum.photos/seed/godzilla/400/600",
+      "poster": "https://picsum.photos/seed/godzilla/400/600",
+      "backdrop_url": "https://picsum.photos/seed/godzilla-bg/1200/600",
+      "backdrop": "https://picsum.photos/seed/godzilla-bg/1200/600",
+      "trailer_url": "https://www.youtube.com/embed/lV1OOlGwExM",
+      "trailerUrl": "https://www.youtube.com/embed/lV1OOlGwExM",
+      "director": "Adam Wingard",
+      "cast": [
+        "Rebecca Hall",
+        "Brian Tyree Henry",
+        "Dan Stevens"
+      ],
+      "status": "now-showing",
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "4",
+      "title": "Deadpool & Wolverine",
+      "duration_min": 127,
+      "duration": 127,
+      "genre": [
+        "Action",
+        "Comedy",
+        "Sci-Fi"
+      ],
+      "language": "English",
+      "rating": "T18",
+      "classification": "T18",
+      "description": "A weary Wolverine finds himself recovering from his injuries when he comes across a loudmouth Deadpool.",
+      "release_date": "2024-07-26",
+      "poster_url": "https://picsum.photos/seed/deadpool/400/600",
+      "poster": "https://picsum.photos/seed/deadpool/400/600",
+      "backdrop_url": "https://picsum.photos/seed/deadpool-bg/1200/600",
+      "backdrop": "https://picsum.photos/seed/deadpool-bg/1200/600",
+      "trailer_url": "https://www.youtube.com/embed/73_1biulkYk",
+      "trailerUrl": "https://www.youtube.com/embed/73_1biulkYk",
+      "director": "Shawn Levy",
+      "cast": [
+        "Ryan Reynolds",
+        "Hugh Jackman",
+        "Emma Corrin"
+      ],
+      "status": "coming-soon",
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "5",
+      "title": "Inside Out 2",
+      "duration_min": 96,
+      "duration": 96,
+      "genre": [
+        "Animation",
+        "Adventure",
+        "Comedy"
+      ],
+      "language": "English",
+      "rating": "P",
+      "classification": "P",
+      "description": "Follow Riley, in her teenage years, encountering new emotions.",
+      "release_date": "2024-06-14",
+      "poster_url": "https://picsum.photos/seed/insideout/400/600",
+      "poster": "https://picsum.photos/seed/insideout/400/600",
+      "backdrop_url": "https://picsum.photos/seed/insideout-bg/1200/600",
+      "backdrop": "https://picsum.photos/seed/insideout-bg/1200/600",
+      "trailer_url": "https://www.youtube.com/embed/LEjhY26Z6w4",
+      "trailerUrl": "https://www.youtube.com/embed/LEjhY26Z6w4",
+      "director": "Kelsey Mann",
+      "cast": [
+        "Amy Poehler",
+        "Phyllis Smith",
+        "Lewis Black"
+      ],
+      "status": "coming-soon",
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "6",
+      "title": "Bố Già",
+      "duration_min": 128,
+      "duration": 128,
+      "genre": [
+        "Comedy",
+        "Drama"
+      ],
+      "language": "Vietnamese",
+      "rating": "T13",
+      "classification": "T13",
+      "description": "A film about the family of Ba Sang, a poor freelancer in a poor alley of Saigon.",
+      "release_date": "2021-03-05",
+      "poster_url": "https://picsum.photos/seed/bogia/400/600",
+      "poster": "https://picsum.photos/seed/bogia/400/600",
+      "backdrop_url": "https://picsum.photos/seed/bogia-bg/1200/600",
+      "backdrop": "https://picsum.photos/seed/bogia-bg/1200/600",
+      "trailer_url": "https://www.youtube.com/embed/uG2ZToId0pY",
+      "trailerUrl": "https://www.youtube.com/embed/uG2ZToId0pY",
+      "director": "Trấn Thành",
+      "cast": [
+        "Trấn Thành",
+        "Tuấn Trần",
+        "Ngọc Giàu"
+      ],
+      "status": "now-showing",
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  ],
+  "payments": [],
+  "promotions": [
+    {
+      "id": 1,
+      "code": "CINESTAR20",
+      "discount_value": 20000,
+      "discount_type": "AMOUNT",
+      "min_order_value": 100000,
+      "used_count": 0,
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  ],
+  "screens": [
+    {
+      "id": 1,
+      "name": "Screen 1",
+      "cinema_id": 1,
+      "max_capacity": 100,
+      "seat_layout_json": "{}",
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 2,
+      "name": "Screen 2",
+      "cinema_id": 1,
+      "max_capacity": 80,
+      "seat_layout_json": "{}",
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 3,
+      "name": "Screen 3",
+      "cinema_id": 1,
+      "max_capacity": 120,
+      "seat_layout_json": "{}",
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 4,
+      "name": "Screen 1",
+      "cinema_id": 2,
+      "max_capacity": 60,
+      "seat_layout_json": "{}",
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 5,
+      "name": "Screen 2",
+      "cinema_id": 2,
+      "max_capacity": 90,
+      "seat_layout_json": "{}",
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 6,
+      "name": "Screen 1",
+      "cinema_id": 3,
+      "max_capacity": 150,
+      "seat_layout_json": "{}",
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 7,
+      "name": "Screen 2",
+      "cinema_id": 3,
+      "max_capacity": 150,
+      "seat_layout_json": "{}",
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 8,
+      "name": "Screen 1",
+      "cinema_id": 4,
+      "max_capacity": 100,
+      "seat_layout_json": "{}",
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  ],
+  "seats": [
+    {
+      "id": "A1",
+      "screen_id": 1,
+      "row": "A",
+      "number": 1,
+      "type": "NORMAL",
+      "price": 95000,
+      "status": "AVAILABLE",
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "A2",
+      "screen_id": 1,
+      "row": "A",
+      "number": 2,
+      "type": "NORMAL",
+      "price": 95000,
+      "status": "AVAILABLE",
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "A3",
+      "screen_id": 1,
+      "row": "A",
+      "number": 3,
+      "type": "NORMAL",
+      "price": 95000,
+      "status": "BOOKED",
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "A4",
+      "screen_id": 1,
+      "row": "A",
+      "number": 4,
+      "type": "NORMAL",
+      "price": 95000,
+      "status": "AVAILABLE",
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "B1",
+      "screen_id": 1,
+      "row": "B",
+      "number": 1,
+      "type": "NORMAL",
+      "price": 95000,
+      "status": "AVAILABLE",
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "B2",
+      "screen_id": 1,
+      "row": "B",
+      "number": 2,
+      "type": "VIP",
+      "price": 115000,
+      "status": "AVAILABLE",
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "B3",
+      "screen_id": 1,
+      "row": "B",
+      "number": 3,
+      "type": "VIP",
+      "price": 115000,
+      "status": "AVAILABLE",
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "B4",
+      "screen_id": 1,
+      "row": "B",
+      "number": 4,
+      "type": "NORMAL",
+      "price": 95000,
+      "status": "AVAILABLE",
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "C1",
+      "screen_id": 1,
+      "row": "C",
+      "number": 1,
+      "type": "SWEETBOX",
+      "price": 250000,
+      "status": "AVAILABLE",
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "C2",
+      "screen_id": 1,
+      "row": "C",
+      "number": 2,
+      "type": "SWEETBOX",
+      "price": 250000,
+      "status": "AVAILABLE",
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "D1",
+      "screen_id": 2,
+      "row": "D",
+      "number": 1,
+      "type": "NORMAL",
+      "price": 95000,
+      "status": "AVAILABLE",
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "D2",
+      "screen_id": 2,
+      "row": "D",
+      "number": 2,
+      "type": "NORMAL",
+      "price": 95000,
+      "status": "AVAILABLE",
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "E1",
+      "screen_id": 2,
+      "row": "E",
+      "number": 1,
+      "type": "VIP",
+      "price": 115000,
+      "status": "BOOKED",
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "E2",
+      "screen_id": 2,
+      "row": "E",
+      "number": 2,
+      "type": "VIP",
+      "price": 115000,
+      "status": "AVAILABLE",
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "F1",
+      "screen_id": 3,
+      "row": "F",
+      "number": 1,
+      "type": "NORMAL",
+      "price": 85000,
+      "status": "AVAILABLE",
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "G1",
+      "screen_id": 4,
+      "row": "G",
+      "number": 1,
+      "type": "NORMAL",
+      "price": 85000,
+      "status": "AVAILABLE",
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "H1",
+      "screen_id": 5,
+      "row": "H",
+      "number": 1,
+      "type": "VIP",
+      "price": 125000,
+      "status": "AVAILABLE",
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "I1",
+      "screen_id": 6,
+      "row": "I",
+      "number": 1,
+      "type": "NORMAL",
+      "price": 105000,
+      "status": "AVAILABLE",
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  ],
+  "shows": [
+    {
+      "id": 1,
+      "movie_id": 1,
+      "screen_id": 1,
+      "start_time": "2026-03-25T10:00:00",
+      "end_time": "2026-03-25T12:46:00",
+      "price": 95000,
+      "format": "2D",
+      "language": "Phụ đề",
+      "time": "10:00",
+      "date": "2026-03-25",
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 2,
+      "movie_id": 1,
+      "screen_id": 1,
+      "start_time": "2026-03-25T13:30:00",
+      "end_time": "2026-03-25T16:16:00",
+      "price": 105000,
+      "format": "2D",
+      "language": "Phụ đề",
+      "time": "13:30",
+      "date": "2026-03-25",
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 3,
+      "movie_id": 1,
+      "screen_id": 2,
+      "start_time": "2026-03-25T19:00:00",
+      "end_time": "2026-03-25T21:46:00",
+      "price": 125000,
+      "format": "IMAX",
+      "language": "Phụ đề",
+      "time": "19:00",
+      "date": "2026-03-25",
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 4,
+      "movie_id": 2,
+      "screen_id": 3,
+      "start_time": "2026-03-25T11:00:00",
+      "end_time": "2026-03-25T12:34:00",
+      "price": 85000,
+      "format": "2D",
+      "language": "Lồng tiếng",
+      "time": "11:00",
+      "date": "2026-03-25",
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 5,
+      "movie_id": 2,
+      "screen_id": 4,
+      "start_time": "2026-03-25T14:15:00",
+      "end_time": "2026-03-25T15:49:00",
+      "price": 85000,
+      "format": "2D",
+      "language": "Lồng tiếng",
+      "time": "14:15",
+      "date": "2026-03-25",
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 6,
+      "movie_id": 3,
+      "screen_id": 5,
+      "start_time": "2026-03-25T15:00:00",
+      "end_time": "2026-03-25T16:55:00",
+      "price": 115000,
+      "format": "3D",
+      "language": "Phụ đề",
+      "time": "15:00",
+      "date": "2026-03-25",
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 7,
+      "movie_id": 3,
+      "screen_id": 6,
+      "start_time": "2026-03-25T20:30:00",
+      "end_time": "2026-03-25T22:25:00",
+      "price": 125000,
+      "format": "3D",
+      "language": "Phụ đề",
+      "time": "20:30",
+      "date": "2026-03-25",
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 8,
+      "movie_id": 6,
+      "screen_id": 1,
+      "start_time": "2026-03-25T17:00:00",
+      "end_time": "2026-03-25T19:08:00",
+      "price": 95000,
+      "format": "2D",
+      "language": "Tiếng Việt",
+      "time": "17:00",
+      "date": "2026-03-25",
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 9,
+      "movie_id": 6,
+      "screen_id": 7,
+      "start_time": "2026-03-25T22:00:00",
+      "end_time": "2026-03-26T00:08:00",
+      "price": 105000,
+      "format": "2D",
+      "language": "Tiếng Việt",
+      "time": "22:00",
+      "date": "2026-03-25",
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 10,
+      "movie_id": 1,
+      "screen_id": 1,
+      "start_time": "2026-03-26T10:00:00",
+      "end_time": "2026-03-26T12:46:00",
+      "price": 95000,
+      "format": "2D",
+      "language": "Phụ đề",
+      "time": "10:00",
+      "date": "2026-03-26",
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 11,
+      "movie_id": 2,
+      "screen_id": 3,
+      "start_time": "2026-03-26T11:00:00",
+      "end_time": "2026-03-26T12:34:00",
+      "price": 85000,
+      "format": "2D",
+      "language": "Lồng tiếng",
+      "time": "11:00",
+      "date": "2026-03-26",
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 12,
+      "movie_id": 3,
+      "screen_id": 5,
+      "start_time": "2026-03-26T15:00:00",
+      "end_time": "2026-03-26T16:55:00",
+      "price": 115000,
+      "format": "3D",
+      "language": "Phụ đề",
+      "time": "15:00",
+      "date": "2026-03-26",
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  ],
+  "showtimes": [
+    {
+      "id": "s1",
+      "cinemaId": "c1",
+      "movieId": "1",
+      "time": "10:00",
+      "date": "2026-03-25",
+      "format": "2D",
+      "language": "Subtitles",
+      "price": 95000
+    },
+    {
+      "id": "s2",
+      "cinemaId": "c1",
+      "movieId": "1",
+      "time": "13:30",
+      "date": "2026-03-25",
+      "format": "3D",
+      "language": "Subtitles",
+      "price": 125000
+    },
+    {
+      "id": "s3",
+      "cinemaId": "c1",
+      "movieId": "1",
+      "time": "16:45",
+      "date": "2026-03-25",
+      "format": "Dolby",
+      "language": "Subtitles",
+      "price": 155000
+    },
+    {
+      "id": "s4",
+      "cinemaId": "c2",
+      "movieId": "1",
+      "time": "11:15",
+      "date": "2026-03-25",
+      "format": "2D",
+      "language": "Subtitles",
+      "price": 85000
+    },
+    {
+      "id": "s5",
+      "cinemaId": "c2",
+      "movieId": "1",
+      "time": "14:00",
+      "date": "2026-03-25",
+      "format": "2D",
+      "language": "Subtitles",
+      "price": 85000
+    },
+    {
+      "id": "s6",
+      "cinemaId": "c1",
+      "movieId": "2",
+      "time": "09:00",
+      "date": "2026-03-25",
+      "format": "2D",
+      "language": "Subtitles",
+      "price": 75000
+    },
+    {
+      "id": "s7",
+      "cinemaId": "c1",
+      "movieId": "2",
+      "time": "11:30",
+      "date": "2026-03-25",
+      "format": "2D",
+      "language": "Subtitles",
+      "price": 75000
+    },
+    {
+      "id": "s8",
+      "cinemaId": "c3",
+      "movieId": "2",
+      "time": "10:15",
+      "date": "2026-03-25",
+      "format": "2D",
+      "language": "Subtitles",
+      "price": 85000
+    },
+    {
+      "id": "s9",
+      "cinemaId": "c3",
+      "movieId": "3",
+      "time": "13:00",
+      "date": "2026-03-25",
+      "format": "3D",
+      "language": "Subtitles",
+      "price": 115000
+    },
+    {
+      "id": "s10",
+      "cinemaId": "c4",
+      "movieId": "1",
+      "time": "19:00",
+      "date": "2026-03-25",
+      "format": "2D",
+      "language": "Subtitles",
+      "price": 95000
+    },
+    {
+      "id": "s11",
+      "cinemaId": "c5",
+      "movieId": "5",
+      "time": "15:30",
+      "date": "2026-03-25",
+      "format": "2D",
+      "language": "Subtitles",
+      "price": 85000
+    },
+    {
+      "id": "s12",
+      "cinemaId": "c5",
+      "movieId": "5",
+      "time": "18:15",
+      "date": "2026-03-25",
+      "format": "2D",
+      "language": "Subtitles",
+      "price": 95000
+    },
+    {
+      "id": "s13",
+      "cinemaId": "c2",
+      "movieId": "6",
+      "time": "20:00",
+      "date": "2026-03-25",
+      "format": "2D",
+      "language": "Subtitles",
+      "price": 85000
+    },
+    {
+      "id": "s14",
+      "cinemaId": "c1",
+      "movieId": "6",
+      "time": "15:00",
+      "date": "2026-03-25",
+      "format": "2D",
+      "language": "Subtitles",
+      "price": 105000
+    },
+    {
+      "id": "s15",
+      "cinemaId": "c1",
+      "movieId": "1",
+      "time": "10:00",
+      "date": "2026-03-26",
+      "format": "2D",
+      "language": "Subtitles",
+      "price": 95000
+    },
+    {
+      "id": "s16",
+      "cinemaId": "c1",
+      "movieId": "2",
+      "time": "13:30",
+      "date": "2026-03-26",
+      "format": "2D",
+      "language": "Subtitles",
+      "price": 75000
+    }
+  ],
+  "snacks": [
+    {
+      "id": 1,
+      "name": "Bắp Rang Muối",
+      "description": "Bắp rang vị muối truyền thống nóng hổi.",
+      "category": "SNACK",
+      "price": 45000,
+      "image_url": "https://picsum.photos/seed/popcorn/200/200",
+      "image": "https://picsum.photos/seed/popcorn/200/200",
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 2,
+      "name": "Bắp Rang Caramen",
+      "description": "Bắp rang ngọt ngào với lớp caramen dày.",
+      "category": "SNACK",
+      "price": 55000,
+      "image_url": "https://picsum.photos/seed/caramel/200/200",
+      "image": "https://picsum.photos/seed/caramel/200/200",
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 3,
+      "name": "Coca-Cola (Large)",
+      "description": "Nước uống có gas Coca-Cola mát lạnh.",
+      "category": "DRINK",
+      "price": 35000,
+      "image_url": "https://picsum.photos/seed/coca/200/200",
+      "image": "https://picsum.photos/seed/coca/200/200",
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 4,
+      "name": "Combo Couple",
+      "description": "1 bắp lớn + 2 nước lớn tiết kiệm.",
+      "category": "COMBO",
+      "price": 125000,
+      "image_url": "https://picsum.photos/seed/combo/200/200",
+      "image": "https://picsum.photos/seed/combo/200/200",
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 5,
+      "name": "Nước suối Dasani",
+      "description": "Nước suối tinh khiết đóng chai.",
+      "category": "DRINK",
+      "price": 20000,
+      "image_url": "https://picsum.photos/seed/water/200/200",
+      "image": "https://picsum.photos/seed/water/200/200",
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "customer1",
+      "email": "customer1@gmail.com",
+      "phone": "0912345678",
+      "password_hash": "hashed_pass_1",
+      "role": "CUSTOMER",
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 2,
+      "username": "admin",
+      "email": "admin@cinestar.com",
+      "phone": "0999999999",
+      "password_hash": "hashed_pass_admin",
+      "role": "ADMIN",
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  ]
+}
