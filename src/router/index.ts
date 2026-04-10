@@ -9,6 +9,7 @@ import ConfirmationScreen from '../screens/ConfirmationScreen.vue';
 import AccountScreen from '../screens/AccountScreen.vue';
 import EditProfileScreen from '../screens/EditProfileScreen.vue';
 import BookingDetailScreen from '../screens/BookingDetailScreen.vue';
+import CinemasScreen from '../screens/CinemasScreen.vue';
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -20,6 +21,11 @@ const routes: Array<RouteRecordRaw> = [
     path: '/movies',
     name: 'movies',
     component: MoviesScreen
+  },
+  {
+    path: '/cinemas',
+    name: 'cinemas',
+    component: CinemasScreen
   },
   {
     path: '/movie/:id',
