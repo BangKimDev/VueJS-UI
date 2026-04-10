@@ -24,8 +24,7 @@ const toggleMenu = () => {
         <nav class="desktop-nav">
           <router-link to="/" :class="['nav-link', { active: route.name === 'home' }]">Trang chủ</router-link>
           <router-link to="/movies" :class="['nav-link', { active: route.name === 'movies' }]">Phim</router-link>
-          <button class="nav-link">Rạp</button>
-          <button class="nav-link">Khuyến mãi</button>
+          <router-link to="/cinemas" :class="['nav-link', { active: route.name === 'cinemas' }]">Rạp</router-link>
         </nav>
       </div>
       <div class="header-right">
